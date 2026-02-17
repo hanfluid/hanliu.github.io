@@ -6,7 +6,7 @@ subtitle: Researcher at <a href='https://cse.umn.edu/safl'>St. Anthony Falls Lab
 
 profile:
   align: right
-  image: prof_pic.jpg  # put your photo in assets/img/prof_pic.jpg
+  image: prof_pic.jpg # put your photo in assets/img/prof_pic.jpg
   image_circular: false
   more_info: >
     <p>St. Anthony Falls Laboratory</p>

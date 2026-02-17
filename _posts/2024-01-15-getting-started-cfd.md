@@ -42,4 +42,4 @@ If you're new to CFD, here are some resources I recommend:
 3. Get familiar with open-source CFD tools like OpenFOAM
 4. Practice with simple canonical flows (channel flow, cavity flow)
 
-*This is a sample blog post. Replace with your own content!*
+_This is a sample blog post. Replace with your own content!_
