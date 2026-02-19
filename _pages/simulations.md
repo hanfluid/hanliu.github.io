@@ -69,4 +69,40 @@ nav_order: 2
 </div>
 </div>
 
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/M_olyC3N46w" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Richtmyer-Meshkov Instability</h4>
+<p>Scale-to-scale energy transfer in shock-driven turbulent mixing. DNS resolves the energy cascade from large-scale instability down to dissipation scales. <a href="https://doi.org/10.1103/PhysRevE.93.053112">PRE 2016</a></p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/gazOI87rfQM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Supercavitation Under Ocean Surface</h4>
+<p>Ventilated supercavity interacting with the free surface, showing the coupled dynamics of cavity, wake, and ocean waves.</p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/qC-xXp_Zxm0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Vertical Axis Hydro-Turbine</h4>
+<p>LES of a drag-type vertical axis hydrokinetic turbine in open channel flow, used for co-design optimization of turbine geometry. <a href="https://doi.org/10.1016/j.renene.2021.09.119">Renewable Energy 2021</a></p>
+</div>
+</div>
+
 </div>
