@@ -97,9 +97,20 @@ ul.task-list input[type="checkbox"] {
         i {
           font-size: 0.75rem;
         }
+
+        // Brand colors for icons
+        .fa-envelope { color: #d44638; }
+        .fa-google-scholar { color: #4285f4; }
+        .fa-linkedin { color: #0a66c2; }
+        .fa-x-twitter { color: #000; }
       }
     }
   }
+}
+
+// Dark mode: X icon white
+html[data-theme="dark"] .profile-buttons .fa-x-twitter {
+  color: #fff !important;
 }
 
 // Visualizations page
