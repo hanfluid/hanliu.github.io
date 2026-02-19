@@ -62,6 +62,17 @@
   font-size: 0.82rem;
   line-height: 1.4;
   color: var(--global-text-color);
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--global-divider-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+    }
+  }
 }
 
 .timeline-type {

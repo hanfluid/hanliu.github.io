@@ -13,12 +13,14 @@
   venue: "Journal of Fluid Mechanics, 966, A20"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1017/jfm.2023.431"
 
 - year: 2023
   title: "A consistent adaptive level set framework for incompressible two-phase flows"
   venue: "Journal of Computational Physics"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1016/j.jcp.2023.111971"
 
 - year: 2023
   title: "Efficiency-enhanced high-fidelity simulation solver for incompressible two-phase flows and FSI"
@@ -30,6 +32,7 @@
   venue: "Journal of Fluid Mechanics, 947, A33"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1017/jfm.2022.655"
 
 - year: 2022
   title: "A reduced order model for simulating an amphibious vehicle transiting the surf zone"
@@ -53,30 +56,35 @@
   type: paper
   highlight: true
   note: "Featured Article"
+  url: "https://doi.org/10.1063/5.0040188"
 
 - year: 2021
   title: "Refined modeling for single-mode cylindrical Richtmyer-Meshkov instability"
   venue: "Journal of Fluid Mechanics, 908"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1017/jfm.2020.723"
 
 - year: 2021
   title: "A robust and accurate technique for Lagrangian tracking of bubbles"
   venue: "International Journal of Multiphase Flow, 135"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1016/j.ijmultiphaseflow.2020.103523"
 
 - year: 2021
   title: "Numerical investigation of ventilated cavitating flow in the wake of a circular cylinder"
   venue: "Physical Review Fluids, 6, 064303"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1103/PhysRevFluids.6.064303"
 
 - year: 2021
   title: "LES and co-design strategy for a drag-type vertical axis hydrokinetic turbine"
   venue: "Renewable Energy"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1016/j.renene.2021.09.119"
 
 - year: 2021
   title: "Variational quantum algorithm towards quantum computing for fluid mechanics"
@@ -103,6 +111,7 @@
   venue: "Advances in Applied Mathematics and Mechanics, 11(3)"
   type: paper
   highlight: true
+  url: "https://doi.org/10.4208/aamm.2018.s03"
 
 - year: 2018
   title: "Numerical study on supercavitation turbulence"
@@ -119,12 +128,14 @@
   venue: "Physical Review E, 93, 053112"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1103/PhysRevE.93.053112"
 
 - year: 2016
   title: "Preferential concentration of heavy particles in compressible isotropic turbulence"
   venue: "Physics of Fluids, 28, 055104"
   type: paper
   highlight: true
+  url: "https://doi.org/10.1063/1.4948810"
 
 - year: 2016
   title: "Numerical study on the interaction between supercavitation and turbulence"

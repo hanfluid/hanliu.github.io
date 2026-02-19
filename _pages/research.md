@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 description: Research projects in Computational Fluid Dynamics.
-nav: true
+nav: false
 nav_order: 1
 display_categories: [Multiphase Flow, Turbulence, Applied CFD]
 horizontal: false
