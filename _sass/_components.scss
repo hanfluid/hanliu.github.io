@@ -99,10 +99,10 @@ ul.task-list input[type="checkbox"] {
         }
 
         // Brand colors for icons
-        .fa-envelope { color: #d44638; }
-        .fa-google-scholar { color: #4285f4; }
-        .fa-linkedin { color: #0a66c2; }
-        .fa-x-twitter { color: #000; }
+        .fa-envelope { color: #d44638 !important; }
+        .fa-google-scholar { color: #4285f4 !important; }
+        .fa-linkedin { color: #0a66c2 !important; }
+        .fa-x-twitter { color: #000 !important; }
       }
     }
   }
@@ -110,7 +110,7 @@ ul.task-list input[type="checkbox"] {
 
 // Dark mode: X icon white
 html[data-theme="dark"] .profile-buttons .fa-x-twitter {
-  color: #fff !important;
+  color: #e8e8e8 !important;
 }
 
 // Visualizations page
