@@ -11,4 +11,4 @@ We perform high-fidelity numerical simulations to investigate the bubble, water 
 
 This research provides critical insights for understanding oil spill dispersion in ocean environments and supporting environmental protection efforts.
 
-{% include video.liquid path="https://www.youtube.com/embed/AhPMyL2Dgl4" class="img-fluid rounded z-depth-1" width="100%" height="400" caption="What Happens When Breaking Waves Hit an Oil Slick (Simulation by CFD)" %}
+{% include video.liquid path="https://www.youtube.com/embed/vsy0xnjz4Uc" class="img-fluid rounded z-depth-1" width="100%" height="400" caption="What Happens When Breaking Waves Hit an Oil Slick (Simulation by CFD)" %}
