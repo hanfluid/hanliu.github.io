@@ -28,4 +28,4 @@ I write CFD solvers from scratch. Compressible turbulence, multiphase flows, lev
 
 Things I've worked on: [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil spills under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission), [canopy flows](/visualizations/#turbulent-canopy-flow), Richtmyer-Meshkov instability, particle-laden turbulence.
 
-Currently exploring **quantum-inspired tensor network methods** for solving the Navier-Stokes equations. The goal is to make solvers fundamentally faster.
+Currently exploring **quantum computing and quantum tensor networks** for solving the Navier-Stokes equations. The goal is to make solvers fundamentally faster, scalable, and smarter.
