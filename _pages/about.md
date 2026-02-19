@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-buttons">
-      <a href="mailto:liux3790@umn.edu" title="liux3790@umn.edu"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="#" onclick="navigator.clipboard.writeText('liux3790@umn.edu');var el=this;el.innerHTML='<i class=\'fa-solid fa-check\'></i> Copied!';setTimeout(function(){el.innerHTML='<i class=\'fa-solid fa-envelope\'></i> Email'},1500);return false" title="Copy email"><i class="fa-solid fa-envelope"></i> Email</a>
       <a href="https://scholar.google.com/citations?user=iBmQmukAAAAJ" target="_blank" title="Scholar"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
       <a href="https://www.linkedin.com/in/hliu2019/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
