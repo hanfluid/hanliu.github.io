@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher at <a href='https://cse.umn.edu/safl'>St. Anthony Falls Laboratory (SAFL)</a>, University of Minnesota
+subtitle:
 
 profile:
   align: left
