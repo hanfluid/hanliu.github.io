@@ -1,50 +1,74 @@
 ---
 layout: page
-title: Simulations
-permalink: /simulations/
-description: In-house CFD simulations of multiphase turbulent flows.
+title: Visualizations
+permalink: /visualizations/
+description: In-house CFD visualizations of multiphase turbulent flows.
 nav: true
 nav_order: 2
 ---
 
-All simulations on this page were computed with solvers I wrote from scratch.
+All visualizations on this page were computed with solvers I wrote from scratch.
 
----
+<div class="viz-grid">
 
-### Ventilated Cavity Flow
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/VJelVY1T58g" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Ventilated Cavity Flow</h4>
+<p>DNS of gas injection into an underwater cavity. Captures cavity dynamics, wake instability, and gas-liquid interaction at low Reynolds number. <a href="https://doi.org/10.1017/jfm.2023.431">JFM 2023</a></p>
+</div>
+</div>
 
-Gas injection into an underwater cavity creates complex recirculating flow structures. This DNS captures the cavity dynamics, wake instability, and gas-liquid interaction at low Reynolds number.
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/NJTRVlPevx4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>COVID-19 Airborne Transmission</h4>
+<p>Respiratory aerosol transport driven by AC airflow in a restaurant, reproducing a real outbreak documented in Guangzhou. <a href="https://doi.org/10.1063/5.0040188">PoF 2021, Featured Article</a></p>
+</div>
+</div>
 
-{% include video.liquid path="https://www.youtube.com/embed/VJelVY1T58g" class="img-fluid rounded z-depth-1" width="100%" height="400" %}
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/AhPMyL2Dgl4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Oil Dispersion Under Breaking Waves</h4>
+<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set method.</p>
+</div>
+</div>
 
----
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/256nWAEoTh0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Turbulent Canopy Flow</h4>
+<p>Fluid-structure interaction simulation of flexible underwater vegetation under turbulent flow, capturing the two-way coupling between flow and canopy. <a href="https://doi.org/10.1017/jfm.2022.655">JFM 2022</a></p>
+</div>
+</div>
 
-### COVID-19 Airborne Transmission
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/2ZWy9-J1kdI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>3D Wave Breaking</h4>
+<p>DNS of a three-dimensional plunging breaker, resolving the full air-water interface evolution including jet impact, splash-up, and bubble entrainment.</p>
+</div>
+</div>
 
-How did air conditioning spread the virus across a restaurant? This simulation traces respiratory aerosol transport driven by AC airflow, reproducing a real outbreak documented in Guangzhou.
-
-{% include video.liquid path="https://www.youtube.com/embed/NJTRVlPevx4" class="img-fluid rounded z-depth-1" width="100%" height="400" %}
-
----
-
-### Oil Dispersion Under Breaking Waves
-
-A plunging breaker hits an oil slick. The three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation simultaneously using a coupled level set method.
-
-{% include video.liquid path="https://www.youtube.com/embed/AhPMyL2Dgl4" class="img-fluid rounded z-depth-1" width="100%" height="400" %}
-
----
-
-### Turbulent Canopy Flow
-
-Flexible underwater vegetation bends and sways under turbulent flow. This fluid-structure interaction simulation couples the Navier-Stokes equations with structural dynamics to capture the two-way coupling between flow and canopy.
-
-{% include video.liquid path="https://www.youtube.com/embed/256nWAEoTh0" class="img-fluid rounded z-depth-1" width="100%" height="400" %}
-
----
-
-### 3D Wave Breaking
-
-A three-dimensional plunging breaker captured by DNS. The simulation resolves the full air-water interface evolution, including jet impact, splash-up, bubble entrainment, and spray generation.
-
-{% include video.liquid path="https://www.youtube.com/embed/2ZWy9-J1kdI" class="img-fluid rounded z-depth-1" width="100%" height="400" %}
+</div>

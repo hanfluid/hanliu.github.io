@@ -99,6 +99,43 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Visualizations page
+.viz-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.viz-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+
+  .viz-video {
+    border-radius: 6px;
+    overflow: hidden;
+
+    iframe {
+      border: none;
+    }
+  }
+
+  .viz-info {
+    h4 {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+  }
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
