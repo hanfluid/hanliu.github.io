@@ -1,12 +1,38 @@
 - year: 2025
+  title: "Exploring low-rank structures in shallow water equations using quantum tensor networks"
+  venue: 78th APS DFD, Houston
+  type: talk
+  url: "https://schedule.aps.org/dfd/2025/events/U32"
+
+- year: 2025
   title: "Enhancing incompressible two-phase turbulence simulations with quantum tensor networks"
   venue: APS Global Summit, Anaheim
   type: talk
+  url: "https://schedule.aps.org/smt/2025/events/MAR-Q35/13"
 
 - year: 2024
   title: "Quantum-inspired high-fidelity solver for simulating incompressible two-phase turbulence"
   venue: 77th APS DFD, Salt Lake City
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD24/Session/A16.3"
+
+- year: 2024
+  title: "Numerical study of bubble transport in breaking waves"
+  venue: 77th APS DFD, Salt Lake City
+  type: talk
+  url: "https://meetings.aps.org/Meeting/DFD24/Session/A26.2"
+
+- year: 2024
+  title: "On the origin of bubbles in breaking waves: a numerical study"
+  venue: 77th APS DFD, Salt Lake City
+  type: talk
+  url: "https://meetings.aps.org/Meeting/DFD24/Session/C07.9"
+
+- year: 2024
+  title: "Enhanced solver for high-precision simulations of two-phase fluid dynamics in marine environments"
+  venue: 2024 Ocean Sciences Meeting
+  type: talk
+  url: "https://agu.confex.com/agu/OSM24/prelim.cgi/Paper/1485019"
 
 - year: 2023
   title: "Simulation-based study of low Reynolds number flow around a ventilated cavity"
@@ -23,9 +49,16 @@
   url: "https://doi.org/10.1016/j.jcp.2023.111971"
 
 - year: 2023
-  title: "Efficiency-enhanced high-fidelity simulation solver for incompressible two-phase flows and FSI"
-  venue: 76th APS DFD
+  title: "Towards generalization of visual anemometry using honami wave theory"
+  venue: 76th APS DFD, Washington DC
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD23/Session/ZC43.1"
+
+- year: 2023
+  title: "Efficiency-enhanced high-fidelity simulation solver for incompressible two-phase flows and FSI"
+  venue: 76th APS DFD, Washington DC
+  type: talk
+  url: "https://meetings.aps.org/Meeting/DFD23/Session/T15.5"
 
 - year: 2022
   title: "Simulation-based study of turbulent aquatic canopy flows with flexible stems"
@@ -41,14 +74,23 @@
   highlight: true
 
 - year: 2022
+  title: "Large-eddy simulation and co-design strategy for a drag-type vertical axis hydrokinetic turbine"
+  venue: "Renewable Energy, 181, 1305-1316"
+  type: paper
+  highlight: true
+  url: "https://doi.org/10.1016/j.renene.2021.09.119"
+
+- year: 2022
   title: "Simulation-based study on turbulent canopy flows and Monami phenomenon"
   venue: 75th APS DFD, Indianapolis
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD22/Session/T37.2"
 
 - year: 2022
   title: "Interaction between flexible canopy and turbulent boundary layer flows"
   venue: AGU 2022, Chicago
   type: talk
+  url: "https://ui.adsabs.harvard.edu/abs/2022AGUFM.A42E..02L/abstract"
 
 - year: 2021
   title: "Simulation-based study of COVID-19 outbreak associated with air-conditioning in a restaurant"
@@ -80,21 +122,29 @@
   url: "https://doi.org/10.1103/PhysRevFluids.6.064303"
 
 - year: 2021
-  title: "LES and co-design strategy for a drag-type vertical axis hydrokinetic turbine"
-  venue: "Renewable Energy"
-  type: paper
-  highlight: true
-  url: "https://doi.org/10.1016/j.renene.2021.09.119"
-
-- year: 2021
   title: "Variational quantum algorithm towards quantum computing for fluid mechanics"
   venue: 74th APS DFD, Phoenix
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD21/Session/T08.6"
+
+- year: 2021
+  title: "Optimal Network method for Lagrangian tracking of bubbles and detecting fragmentation"
+  venue: 74th APS DFD, Phoenix
+  type: talk
+  url: "https://meetings.aps.org/Meeting/DFD21/Session/E21.2"
+
+- year: 2020
+  title: "Simulation-based study of COVID-19 airborne transmission in a restaurant"
+  venue: medRxiv preprint
+  type: paper
+  highlight: true
+  url: "https://doi.org/10.1101/2020.12.10.20247403"
 
 - year: 2020
   title: "Simulation-based study of airborne transmission of COVID-19 in two practical settings"
   venue: 73rd APS DFD (Virtual)
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD20/Session/W10.4"
 
 - year: 2020
   title: "Simulation-based study of wind effect on shoaling waves"
@@ -105,6 +155,7 @@
   title: "A stabilized coupled level set and volume of fluid method"
   venue: 72nd APS DFD, Seattle
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD19/Session/G24.6"
 
 - year: 2019
   title: "Numerical investigation of Richtmyer-Meshkov instability in spherical geometry"
@@ -117,6 +168,7 @@
   title: "Numerical study on supercavitation turbulence"
   venue: 71st APS DFD, Atlanta
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD18/Session/Q09.6"
 
 - year: 2017
   title: "Simulation based study of supercavitation turbulence"
@@ -141,6 +193,7 @@
   title: "Numerical study on the interaction between supercavitation and turbulence"
   venue: 69th APS DFD, Portland
   type: talk
+  url: "https://meetings.aps.org/Meeting/DFD16/Session/A29.1"
 
 - year: 2015
   title: "Preferential concentration of particles in compressible turbulence"
