@@ -134,13 +134,6 @@
   url: "https://meetings.aps.org/Meeting/DFD21/Session/E21.2"
 
 - year: 2020
-  title: "Simulation-based study of COVID-19 airborne transmission in a restaurant"
-  venue: medRxiv preprint
-  type: paper
-  highlight: true
-  url: "https://doi.org/10.1101/2020.12.10.20247403"
-
-- year: 2020
   title: "Simulation-based study of airborne transmission of COVID-19 in two practical settings"
   venue: 73rd APS DFD (Virtual)
   type: talk
