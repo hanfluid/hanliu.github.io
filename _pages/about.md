@@ -26,6 +26,6 @@ B.S. and Ph.D. from [Peking University](https://english.pku.edu.cn/). Now a rese
 
 I write CFD solvers from scratch. Compressible turbulence, multiphase flows, level set methods, fluid-structure interaction. I like knowing what every line of my code does.
 
-Things I've worked on: [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil spills under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission), [canopy flows](/visualizations/#turbulent-canopy-flow), Richtmyer-Meshkov instability, particle-laden turbulence.
+My work focuses on multiphase turbulence, both incompressible and compressible, such as [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil spills under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission), [canopy flows](/visualizations/#turbulent-canopy-flow), Richtmyer-Meshkov instability, and particle-laden turbulence.
 
 Currently exploring **quantum computing and quantum tensor networks** for solving the Navier-Stokes equations. The goal is to make solvers fundamentally faster, scalable, and smarter.
