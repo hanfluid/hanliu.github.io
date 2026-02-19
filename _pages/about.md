@@ -5,27 +5,27 @@ permalink: /
 subtitle: Researcher at <a href='https://cse.umn.edu/safl'>St. Anthony Falls Laboratory</a>, University of Minnesota
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>St. Anthony Falls Laboratory</p>
     <p>University of Minnesota</p>
-    <p>Minneapolis, MN, USA</p>
 
 news: true
+timeline: true
 selected_papers: true
 social: true
 ---
 
-I am a researcher at [St. Anthony Falls Laboratory (SAFL)](https://cse.umn.edu/safl), University of Minnesota, working in the [Fluid Mechanics Lab](https://fluids.umn.edu/) led by Prof. [Lian Shen](https://cse.umn.edu/me/lian-shen). I obtained my Ph.D. in Fluid Mechanics from [Peking University](https://www.pku.edu.cn/) in 2018.
+I build CFD solvers from scratch — and I find that genuinely exciting.
 
-My research centers on **Computational Fluid Dynamics (CFD)**, developing high-fidelity numerical simulation tools and applying them to fundamental and applied problems in fluid mechanics. Current research directions include:
+I earned both my B.S. and Ph.D. in Fluid Mechanics from [Peking University](https://english.pku.edu.cn/), and I am currently a researcher at the [University of Minnesota](https://twin-cities.umn.edu/).
 
-- **Multiphase flow** — ventilated cavitation, air-water-oil interface dynamics, level set and volume of fluid methods
-- **Turbulence** — compressible turbulence, large-eddy simulation (LES), Richtmyer-Meshkov instability and mixing
-- **Particle-laden flow** — preferential concentration, Stokes number effects in compressible turbulence
-- **Fluid-structure interaction** — flexible aquatic canopy flows, hydrokinetic turbine design and optimization
-- **Quantum-inspired computing for fluids** — tensor network methods for Navier-Stokes equations, variational quantum algorithms
+There is something deeply satisfying about writing every line of a flow solver yourself: discretizing the Navier-Stokes equations, implementing the time integration, debugging the pressure Poisson solver at 2 a.m., and finally watching a physically correct vortex emerge on screen. That hands-on, from-the-ground-up approach has defined my work from the start.
 
-My work spans from fundamental turbulence physics to practical engineering applications such as [COVID-19 airborne transmission simulation](/projects/covid19/), [oil spill dynamics in breaking waves](/projects/oil_spills/), and [renewable energy systems](/projects/turbine/).
+I began by writing **compressible flow solvers** for shock-turbulence interaction and Richtmyer-Meshkov instability, where getting the numerics right at the smallest scales of energy transfer is everything. From there I built **multiphase solvers** — coupling level set and volume-of-fluid methods to track the chaotic dynamics of air, water, and oil simultaneously. These in-house codes have let me tackle problems I care about: [ventilated supercavitation](/projects/ventilated_cavity/), [oil dispersion under breaking waves](/projects/oil_spills/), [airborne virus transmission in restaurants](/projects/covid19/), and [turbulent canopy flows](/projects/canopy/) with flexible vegetation.
+
+What drives me now is **optimization** — making solvers faster, leaner, and smarter. I'm exploring **quantum-inspired algorithms and tensor network methods** to compress and solve the Navier-Stokes equations, seeking exponential speedups that classical approaches cannot offer. The idea of encoding an entire turbulent flow field as a matrix product state, then evolving it efficiently, feels like the next frontier.
+
+If it involves fluid physics, numerical methods, and the challenge of squeezing every ounce of performance out of a computation, I'm in.

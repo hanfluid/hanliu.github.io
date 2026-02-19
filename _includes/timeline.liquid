@@ -1,0 +1,22 @@
+<div class="timeline">
+  {% assign prev_year = nil %}
+  {% for item in site.data.timeline %}
+    <div class="timeline-item">
+      {% if item.year != prev_year %}
+        <div class="timeline-year">{{ item.year }}</div>
+      {% else %}
+        <div class="timeline-year"></div>
+      {% endif %}
+      <div class="timeline-dot{% if item.highlight %} highlight{% endif %}"></div>
+      <div class="timeline-content">
+        <div class="timeline-title">
+          <span class="timeline-type {% if item.type == 'paper' %}type-paper{% else %}type-talk{% endif %}">{% if item.type == 'paper' %}pub{% else %}talk{% endif %}</span>
+          {{ item.title }}
+        </div>
+        {% if item.venue %}<div class="timeline-venue">{{ item.venue }}</div>{% endif %}
+        {% if item.note %}<div class="timeline-note">{{ item.note }}</div>{% endif %}
+      </div>
+    </div>
+    {% assign prev_year = item.year %}
+  {% endfor %}
+</div>

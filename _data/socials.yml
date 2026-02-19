@@ -2,5 +2,6 @@
 # displayed in the order defined here
 cv_pdf: /assets/pdf/Han_Liu_CV.pdf
 email: liux3790@umn.edu
-rss_icon: true
+# rss_icon: true
 scholar_userid: iBmQmukAAAAJ
+linkedin_username: hliu2019
