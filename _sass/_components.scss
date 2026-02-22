@@ -71,45 +71,28 @@ ul.task-list input[type="checkbox"] {
     .profile-buttons {
       display: flex;
       flex-wrap: nowrap;
-      gap: 0.25rem;
-      margin-top: 0;
+      gap: 0.75rem;
+      margin-top: 0.25rem;
 
       a {
         display: inline-flex;
         align-items: center;
-        gap: 0.2rem;
-        font-size: 0.7rem;
-        padding: 0.15rem 0.35rem;
-        border: 1px solid var(--global-divider-color);
-        border-radius: 3px;
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         text-decoration: none;
-        white-space: nowrap;
-        transition: color 0.2s, border-color 0.2s;
+        transition: opacity 0.2s;
 
         &:hover {
-          color: var(--global-theme-color);
-          border-color: var(--global-theme-color);
+          opacity: 0.7;
         }
 
         i {
-          font-size: 0.65rem;
+          font-size: 1.3rem;
         }
-
-        // Brand colors for icons
-        .fa-envelope { color: #d44638 !important; }
-        .fa-google-scholar { color: #4285f4 !important; }
-        .fa-linkedin { color: #0a66c2 !important; }
-        .fa-x-twitter { color: #000 !important; }
       }
     }
   }
 }
 
-// Dark mode: X icon white
-html[data-theme="dark"] .profile-buttons .fa-x-twitter {
-  color: #e8e8e8 !important;
-}
 
 // Visualizations page
 .viz-grid {

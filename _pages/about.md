@@ -10,10 +10,10 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-buttons">
-      <a href="#" onclick="navigator.clipboard.writeText('liux3790@umn.edu');var el=this;el.innerHTML='<i class=\'fa-solid fa-check\'></i> Copied!';setTimeout(function(){el.innerHTML='<i class=\'fa-solid fa-envelope\'></i> Email'},1500);return false" title="Copy email"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com/citations?user=iBmQmukAAAAJ" target="_blank" title="Scholar"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
-      <a href="https://www.linkedin.com/in/hliu2019/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-      <a href="https://x.com/hanliufluid" target="_blank" title="X"><i class="fa-brands fa-x-twitter"></i> X</a>
+      <a href="#" onclick="navigator.clipboard.writeText('liux3790@umn.edu');var el=this;el.querySelector('i').className='fa-solid fa-check';setTimeout(function(){el.querySelector('i').className='fa-solid fa-envelope'},1500);return false" title="Copy email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=iBmQmukAAAAJ" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/hliu2019/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://x.com/hanliufluid" target="_blank" title="X"><i class="fa-brands fa-x-twitter"></i></a>
     </div>
 
 news: true
