@@ -28,7 +28,7 @@
 
 .timeline-year {
   font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", monospace;
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
   padding-top: 0.15rem;
   text-align: right;
@@ -59,7 +59,7 @@
 }
 
 .timeline-title {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   color: var(--global-text-color);
 
@@ -78,7 +78,7 @@
 .timeline-type {
   display: inline-block;
   font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", monospace;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   padding: 0.05rem 0.35rem;
@@ -100,14 +100,14 @@
 }
 
 .timeline-venue {
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   color: var(--global-text-color-light);
   font-style: italic;
   margin-top: 0.1rem;
 }
 
 .timeline-note {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--global-theme-color);
   font-weight: 500;
   margin-top: 0.1rem;
